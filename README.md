@@ -5,7 +5,7 @@ We're running 4 server instances on an AWS ECS cluster. These are available at:
 ## Primary server
 
 - service-name: rgs-service-primary
-- url: http://rg.databio.org
+- url: http://refgenomes.databio.org
 - repository: http://github.com/refgenie/refgenomes.databio.org
 - update: The primary server is deployed with change to the `config/refgenie_config_archive.yaml` on master branch. It uses the `docker.io/databio/refgenieserver:latest` image as base.
 
